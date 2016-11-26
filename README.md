@@ -1,0 +1,2 @@
+# beadando
+Alkalmazások fejlesztése beadandó
