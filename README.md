@@ -48,7 +48,7 @@ A program legfőbb célja jól átláthatóan, és érthetően megjeleníteni az
 - Meglévő gyógyszer szerkesztése
 - Meglévő gyógyszer törlése
 
-![](docs/images/UML.jpg)
+![](docs/images/UML/UML.jpg)
 
 Vegyünk példának egy egyszerű folyamatot:
 
@@ -60,7 +60,7 @@ Vegyünk példának egy egyszerű folyamatot:
 4. Szerkesztés oldalon felviszi az új adatokat
 5. Módosít gombra kattintva elmenti a változásokat
 
-![](docs/images/folyamat.jpg)
+![](docs/images/UML/folyamat.jpg)
 
 ### 2. Tervezés
 
@@ -68,7 +68,7 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ###### 2.1.1. Komponensdiagram
 
-![](docs/images/Modell.jpg)
+![](docs/images/UML/Modell.jpg)
 
 ###### **2.1.2. Oldaltérkép:**
 
