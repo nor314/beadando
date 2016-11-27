@@ -155,11 +155,11 @@ Vegyünk példának egy egyszerű folyamatot:
  
  **Adatmodell**
  
- ![](docs/images/kepernyokep/adatmodell.png)
+ ![](docs/images/5.jpg)
  
  **Adatbázisterv**
  
- ![](docs/images/db-modell.png)
+ ![](docs/images/5.jpg)
  
 ######2.2.4.  Dinamikus működés
 
