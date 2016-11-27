@@ -48,7 +48,7 @@ A program legfőbb célja jól átláthatóan, és érthetően megjeleníteni az
 - Meglévő gyógyszer szerkesztése
 - Meglévő gyógyszer törlése
 
-![](docs/images/UML/UML.jpg)
+![](docs/images/1.jpg)
 
 Vegyünk példának egy egyszerű folyamatot:
 
@@ -60,15 +60,16 @@ Vegyünk példának egy egyszerű folyamatot:
 4. Szerkesztés oldalon felviszi az új adatokat
 5. Módosít gombra kattintva elmenti a változásokat
 
-![](docs/images/UML/folyamat.jpg)
+**Regisztráció**
+![](docs/images/2.jpg)
+
+**Bejelentkezés**
+![](docs/images/3.jpg)
+
+**Gyógyszer feltöltése**
+![](docs/images/4.jpg)
 
 ### 2. Tervezés
-
-##### 2.1. Architektúra terv
-
-###### 2.1.1. Komponensdiagram
-
-![](docs/images/UML/Modell.jpg)
 
 ###### **2.1.2. Oldaltérkép:**
 
@@ -123,25 +124,29 @@ Vegyünk példának egy egyszerű folyamatot:
 
 ######2.2.2.Designtervek (végső megvalósítás kinézete):
 
-**Index**
+**Guest**
 
-![](docs/images/rendes/index.jpg)
+![](docs/images/rendes2.0/guest.jpg)
+
+**Guest2**
+
+![](docs/images/rendes2.0/guest2.jpg)
 
 **Signup**
 
-![](docs/images/rendes/signup.jpg)
+![](docs/images/rendes2.0/register.jpg)
 
 **Login**
 
-![](docs/images/rendes/login.jpg)
+![](docs/images/rendes2.0/login.jpg)
 
 **New**
 
-![](docs/images/rendes/new.jpg)
+![](docs/images/rendes2.0/new.jpg)
 
 **Edit**
 
-![](docs/images/rendes/edit.jpg)
+![](docs/images/rendes2.0/edit.jpg)
 
 ######2.2.3. Osztálymodell
  
