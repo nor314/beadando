@@ -61,12 +61,15 @@ Vegyünk példának egy egyszerű folyamatot:
 5. Módosít gombra kattintva elmenti a változásokat
 
 **Regisztráció**
+
 ![](docs/images/2.jpg)
 
 **Bejelentkezés**
+
 ![](docs/images/3.jpg)
 
 **Gyógyszer feltöltése**
+
 ![](docs/images/4.jpg)
 
 ### 2. Tervezés
