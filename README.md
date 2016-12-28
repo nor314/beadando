@@ -208,7 +208,31 @@ Webes IDE: **ADONIS**
 8. A gyógyszer oldalán: Törlés gombra kattintva törölhetjük a gyógyszert
 9. A gyógyszer oldalán: szerkeszt gombra kattintva a szerkesztés oldalra jutunk
 
-###6.	Irodalomjegyzék:
+###6.	Fejlesztői dokumentáció:
+
+## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+
+# 3 AJAX-os funkció:
+
+* ajaxLogin:
+	* AJAX-os bejelentkezés, létrehoz egy modális dialógusablakot, ahol meg lehet adni az emailt és a jelszót, a belépés gombra 	kattintva az /ajax/login oldalra küldi az űrlap tartalmát. Hibás adatok esetén kiírja, hogy sikertelen, a mégse gombra kattintva eltűnik a modális ablak.
+
+* ajaxLogout:
+	* AJAX-os kijelentkezés, egy modális ablakban megkérdezi a felhasználót, hogy biztosan ki akar-e jelentkezni, az Igen gombra kattintva megtörténik a kijelentkezés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak és nem jelentkezik ki.
+	
+* ajaxDelete:
+	* AJAX-os törlés, egy modális ablakban megerősítést kér a felhasználótól, hogy biztosan törli-e az adott gyógyszert, az Igen gombra kattintva megtörténik a törlés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak.
+	
+## Tesztelés
+
+* Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)
+* Először a plugint kell telepíteni majd a tesztesetek a File/Open Test Suite menüpontban tölthetőek be a test mappában lévő testsuite fájlból.
+* Tesztesetek:
+	* Bejelentkezés(loginTest fájl)
+	* Kijelentkezés(logoutTest fájl)
+	* Teendő hozzáadása(addtodoTest fájl)
+
+###7.	Irodalomjegyzék:
 
 http://webprogramozas.inf.elte.hu/alkfejl.php
 
