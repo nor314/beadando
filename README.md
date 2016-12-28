@@ -230,7 +230,8 @@ Webes IDE: **ADONIS**
 * Tesztesetek:
 	* Bejelentkezés(loginTest fájl)
 	* Kijelentkezés(logoutTest fájl)
-	* Teendő hozzáadása(addtodoTest fájl)
+	* Gyógyszer hozzáadása(addtodoTest fájl)
+	* Gyógyszer törlése(deleteTest fájl)
 
 ###7.	Irodalomjegyzék:
 
